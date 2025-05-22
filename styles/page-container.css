@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--body-background-color);
+}
+.page-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-container .content-wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+.content-wrapper #chef {
+    width: 350px;
+    margin:0px 25px 0px 0px;
+    float: left;
+    border: 1px solid var(--hover-color);
+}
+
+.page-container .content-wrapper p{
+    letter-spacing: 1.2px;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 1.5rem;
+}

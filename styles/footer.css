@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*footer-style*/
+.footer{
+    background-color: #11122b;
+    color: var(--font-color-1);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #b3b3b3;
+    max-width: 100%;
+    height:auto;
+}
+.footer .logo-footer{
+    margin: 15px 0;
+    text-align: center;
+}
+.footer .logo-footer img{
+    width: 180px;
+    height: auto;
+    filter: brightness(50%);
+    background-position: center;
+    background-size:cover;
+}
+.footer-phone-hours {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.footer-phone-hours .phone {
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.footer-phone-hours .hours {
+    padding: 0 10px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer .link-wrapper {
+    display: flex;
+}
+
+.link-wrapper .nav-link {
+    margin-bottom: 10px;
+}
+
+.link-wrapper .nav-link a {
+    color: var(--font-color-1);
+}
+
+.link-wrapper .nav-link a:hover {
+    color: var(--hover-color);
+}
+
+.social-media-icons-footer {
+    margin: 15px 20px;
+    display: flex;
+
+}
+
+.social-media-icons-footer a {
+    padding: 0px 15px;
+    font-size: 32px;
+}
+
+.social-media-icons-footer .fa-instagram {
+    background-image: linear-gradient(90deg, #f7ca6f, #fc059d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.social-media-icons-footer .fa-twitter {
+    background-image: linear-gradient(to top, #2203e9, #02aa89);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.social-media-icons-footer .fa-facebook-f {
+    background-color: #022ebf;
+    border-radius: 100%;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.social-media-icons-footer .fa-line {
+    background-image: linear-gradient(45deg, #008102, #1efc05);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.social-media-icons-footer i:hover {
+    color: var(--hover-color);
+}
+
+.copyright-wrapper {
+    margin: 5px 0 20px 0;
+}
+
+.copyright-wrapper span {
+    color: var(--font-color-2);
+    font-size: 12px;
+}
+

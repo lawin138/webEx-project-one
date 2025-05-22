@@ -1,0 +1,54 @@
+/*PS,  <link>rel="stylesheet" href=" "  寫在html內,  @import url(" " )   寫在css內*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+/*中粗度,瘦長標題字*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+/*瘦長中體字*/
+@import url("https://fonts.googleapis.com/css?family=Noto+sans+TC:100,200,400,500,600,700,800,900&display=swap");
+/*思源正黑體英文,   code: font-family: "Noto sans TC", sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100,300,500,400i,700,900&display=swap");
+/*adobel中細體英文,端正 'Rotobo', sans-serif */
+
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexkai.css");
+/*adobe楷體中文  ,code: font-family: "cwTeKai", serif; */
+
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexming.css");
+/*adobe明細體中文,  code: font-family:"cwTeMing", serif*/
+/*homepage是內容設定*/
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+:root {
+    --wrapper-bg-color: #d1bb28;
+    --wrapper-color-1: #cbcbcb;
+    --nav-wrapper-font-sixe: 14px;
+    --nav-wrapper-font-sixe-s: 12px;
+    --font-color-1: #cbcbcb;
+    --font-color-2: #b3b3b3;
+    --fas-icon-size: 24px;
+    --hover-color: #d1bb28;
+    --wrapper-color: #11122b;
+    --box-shadow-1: 2px 4px 10px 0 #0000001a,
+        3px 6px 10px 0 #0000001a;
+    --paper-color: #f6f6f6;
+    --spacer-60: 60px;
+    --spacer-20: 20px;
+    --border-radius: 5px;
+    --font-size: 16px;
+    --body-background-color: #f1ede6;
+}
+
+.spacer20 {
+    height: var(--spacer-20);
+    width: 100%;
+    background-color: #4a4a4a;
+    box-shadow: inset 0px 10px 20px 0px #fff;
+    transform: translateY(3px);
+}
+
+.spacer60 {
+    height: var(--spacer-60);
+    width: 100%;
+    background-color:var(--body-background-color);
+}

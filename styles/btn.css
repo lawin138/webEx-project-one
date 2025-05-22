@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexkai.css");
+/*adobe楷體中文  ,code: font-family: "cwTeKai", serif; */
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexming.css");
+/*adobe明細體中文,  code: font-family:"cwTeMing", serif*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+/*中粗度,瘦長標題字*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+/*瘦長中體字*/
+@import url("https://fonts.googleapis.com/css?family=Noto+sans+TC:100,200,400,500,600,700,800,900&display=swap" );
+/*思源正黑體英文,   code: font-family: "Noto sans TC", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family='Rotobo', sans-serif");
+/*adobel中細體英文,端正 'Rotobo', sans-serif */
+
+.contacted-btn-wrapper{
+    text-align: center;
+    width:100%;
+    padding-right:2rem;
+}
+.contacted-btn-wrapper .btn{
+    background-color:#d1bb28;
+    padding: 7px 25px;
+    border-radius:5px;
+    border: 0.5px solid #b89401;
+    box-shadow: 1px 0.5px 3px #6d695bbb;
+    cursor: pointer;
+    display:inline-block;
+    transition: 0.5s;
+}
+.contacted-btn-wrapper .btn:active{
+    transform: scale(0.5);
+}

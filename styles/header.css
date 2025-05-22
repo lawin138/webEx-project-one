@@ -1,0 +1,105 @@
+
+body {
+    margin:0;
+    font-family: 'Roboto',sans-serif;
+}
+.navigation-wrapper{
+    width:100vw;
+    height:190px;
+    background-color: var(--wrapper-color);
+    color:var(--nav-color);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--nav-wrapper-font-sixe);
+    cursor: pointer;
+}
+.left-column{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    width: 250px;
+}
+.icon .fas{
+    font-size: var(--fas-icon-size);
+    margin:5px 10px;
+}
+.icon .fas:hover{
+    color: var(--hover-color);
+}
+.contact-hours-wrapper{
+    display:block;
+    text-align: left;
+}
+.contact-hours-wrapper .phone{
+    font-size: var(--nav-wrapper-font-sixe);
+    color:#e0e0e0;
+}
+.contact-hours-wrapper .hours{
+    font-size:var(--nav-wrapper-font-sixe-s);
+    color:var(--font-color-2);
+}
+.nav-items{
+    height:190px;
+    width: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-items .banner-image{
+    width: 150px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu {
+    display: flex;
+    margin:25px 0;
+}
+.nav-link{
+    width:100px;
+    height:auto;
+    text-align: center;
+}
+.nav-menu .nav-link a{
+    font-size: var(--nav-wrapper-font-sixe-s);
+    font-family: "Ubuntu Condensed", sans-serif;
+    color:var(--font-color-1);
+    padding:0 30px;
+    transition: 0.5s;
+}
+.nav-link a:hover{
+    letter-spacing: 2px;
+    color:var(--hover-color);
+}
+.address-wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    width: 250px;
+    margin-right:30px;
+}
+.address-wrapper .address{
+    display: block;
+    text-align: right;
+}
+.address a{
+    color:var(--font-color-2);
+    font-size: var(--nav-wrapper-font-sixe);
+}
+.address a:hover{
+    color: var(--hover-color);
+}
+.icon .fas{
+    font-size:var(--fas-icon-size);
+    color:var(--font-color-1);
+}
+.icon:hover{
+    color: var(--hover-color);
+}
+

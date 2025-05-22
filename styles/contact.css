@@ -1,0 +1,91 @@
+img {
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-grid-wrapper {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.company-siderbar-wrapper {
+    width: 400px;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+    height: auto;
+    text-align: center;
+}
+.logo{
+    width:100%;
+    margin:0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.logo img {
+    width: 150px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.company-siderbar-wrapper .company-details-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    position: relative;
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.company-details-wrapper .text {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    width: 200px;
+    padding: 20px 0px;
+    text-align: left;
+    display: inline-block;
+    color:var(--wrapper-color);
+}
+
+.company-details-wrapper .fas {
+    position: absolute;
+    left: 5cqmax;
+    top: 0;
+    padding: 25px 0px;
+    font-size: 20px;
+    color: var(--hover-color);
+}

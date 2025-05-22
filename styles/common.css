@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--body-background-color);
+}
+
+.hero-section{
+    background-image: url("../images/backgrounds/fries-hero-bg.jpg");
+    padding:50px;/*padding是給給top-deading子層,所以圖片還是沒有padding*/
+    height:300px;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hero-section > .top-heading{
+    background-color:var(--wrapper-color);
+    color:var(--wrapper-color-1);
+    width:350px;
+    border-radius: 3px;
+    padding:5px 15px;
+    font-size:16px;
+    text-align: center;
+}
+.hero-section >.bottom-heading{
+    background-color: var(--wrapper-bg-color);
+    color:#11122b;
+    padding:10px 20px;
+    display:inline-block;
+    margin-top: 14px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.features-section{
+    height:400px;
+    background-image:url('../images/backgrounds/fries-multiply-bg.jpg');
+    background-color: #d1bb2880;
+    border-top:10px solid #fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -18px #00000080;
+}
+.features-section > .column-wrapper{
+    width:240px;
+    margin:0 60px;
+    padding:10px 25px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom:5px solid transparent ;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.column-wrapper:hover{
+    border-bottom: 5px solid #0101ca;
+}
+.column-wrapper > h2{
+    font-size:16px;
+    font-weight: 600;
+    margin:0;
+    padding-bottom:10px;
+    color:var(--wrapper-color);
+}
+.column-wrapper > h2:active {
+    transform: scale(0.90);
+    color:#0101ca;
+}
+.column-wrapper p{
+    text-align:left;
+    margin-left:20px;
+    font-size:13px;
+    color:#343434;
+}
+.column-wrapper .fas{
+    font-size: 35px;
+    margin-bottom:10px;
+}
