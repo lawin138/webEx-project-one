@@ -40,7 +40,7 @@ body {
 }
 .form input:hover{
     box-shadow: 3px 2px 8px #bcbcbc;
-    border-bottom: 2px solid #c2a801;
+    border-bottom: 2px solid var(--hover-color);
 }
 .form textarea{
     border: 1px solid var(--wrapper-color);
